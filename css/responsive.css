@@ -1,0 +1,154 @@
+@media all and (min-width: 575px) {
+    h1 {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    header .logo {
+        padding-top: 0;
+    }
+
+    .banner-left br:nth-child(2) {
+        display: inline;
+    }
+
+    .banner-left br:nth-child(3) {
+        display: inline;
+    }
+
+    .banner-left button {
+        top: 100%;
+    }
+
+    .portfolio-section .portfolio-text br {
+        display: none;
+    }
+
+    .contact-section .contact-text h3 {
+        font-size: 30px;
+    }
+
+    footer {
+        text-align: start;
+    }
+}
+
+@media all and (min-width: 768px) {
+    h1 {
+        font-size: 90px;
+        line-height: 90px;
+    }
+}
+
+@media all and (min-width: 991px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    .banner {
+        margin-top: 100px;
+    }
+
+    .banner img {
+        width: 500px;
+    }
+
+    header .logo {
+        background: #020E35;
+        padding-top: 30px;
+        height: 80px;
+        position: absolute;
+        width: 100px;
+        height: 120px;
+        left: 0px;
+    }
+
+    .about-section br {
+        display: inline;
+    }
+
+    .portfolio-section .portfolio-text br {
+        display: inline;
+    }
+
+    .portfolio-img {
+        width: 587px;
+    }
+
+    /* 
+
+    .contact-text br {
+        display: none;
+    } */
+}
+
+@media all and (min-width: 1199px) {
+    h1 {
+        font-size: 80px;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .banner-left br:nth-child(2) {
+        display: none;
+    }
+
+    .portfolio-img {
+        width: 500px;
+    }
+}
+
+
+@media all and (min-width: 1399px) {
+    h1 {
+        font-size: 97px;
+        line-height: 122px;
+    }
+
+    header .navbar {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .banner {
+        margin-top: 100px;
+    }
+
+    .banner-left h1 {
+        margin-top: 0 !important;
+    }
+
+    .banner-left button {
+        position: absolute;
+        width: 140px;
+        height: 40px;
+        top: 339px;
+        z-index: -1;
+    }
+
+    .banner-right img {
+        top: 0;
+        right: -100px;
+    }
+
+    #section-b {
+        background: linear-gradient(white 68%, #020E35 32%) no-repeat;
+    }
+
+    .portfolio-img {
+        width: 587px;
+        height: 390px;
+    }
+
+    .contact-section .contact-text {
+        font-weight: 400;
+        font-size: 90px;
+        line-height: 110px;
+    }
+
+    .contact-form form {
+        width: 554px;
+    }
+}

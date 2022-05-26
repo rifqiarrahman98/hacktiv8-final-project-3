@@ -1,0 +1,298 @@
+:root {
+    --bg-blue: blue;
+}
+
+* {
+    font-family: 'Basic', sans-serif;
+}
+
+p {
+    color: #2b2b2b;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    color: #020E35;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #020E35;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: #020E35;
+}
+
+/* Section A */
+/* Header */
+header .logo {
+    background: #020E35;
+    border-bottom: solid 5px;
+    border-image: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    border-image-slice: 1;
+    margin: 0 !important;
+
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item a {
+    color: black;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item:nth-child(5) .nav-link {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%) !important;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.8px;
+}
+
+.nav-item:nth-child(5) a {
+    color: white !important;
+}
+
+/* Banner */
+.banner {
+    margin-top: 90px;
+    color: #020E35;
+}
+
+.banner-left button {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 12px 30px 13px 30px;
+    color: #fff;
+    border: none;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+.banner-right {
+    margin-top: 50px;
+}
+
+
+/* 
+ */
+
+/* Section b */
+#section-b svg {
+    left: 0;
+    z-index: -1;
+}
+
+/* About */
+.about-section h1 {
+    color: #020E35;
+}
+
+hr {
+    border-top: solid 2px #e73587;
+    width: 100px;
+    opacity: 1;
+}
+
+.about-section p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2B2B2B;
+}
+
+.about-section br {
+    display: none;
+}
+
+/* Services */
+.services {
+    top: 200px;
+}
+
+.service {
+    width: 373px;
+    height: 583px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.service p:nth-child(2) {
+    margin-bottom: 22px;
+}
+
+.service p:nth-child(3) {
+    margin-bottom: 56px;
+}
+
+.service button {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 12px 40px 13px 40px;
+    color: #fff;
+    border: none;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+.service-1 {
+    background-color: #FDF8E3;
+}
+
+.service-1 img {
+    position: absolute;
+    top: 15px;
+}
+
+.service-1 p:nth-child(2) {
+    margin-top: 275px;
+}
+
+.service-2 img {
+    margin-bottom: 8px;
+}
+
+.service-3 img {
+    margin-bottom: 20px;
+}
+
+.service-2 {
+    background-color: #F0F3FA;
+}
+
+.service-3 {
+    background-color: #FEEFF0;
+}
+
+/* 
+ */
+
+/* Section C */
+#section-c {
+    background-color: #020E35;
+}
+
+/* portfolio-section */
+.portfolio-section small {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 3px;
+}
+
+.portfolio-section .portfolio-heading h2 {
+    color: #fff;
+}
+
+.portfolio-section h3 {
+    color: #fff;
+}
+
+.portfolio-section p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.portfolio-section br {
+    display: none;
+}
+
+.portfolio-img {
+    width: 100%;
+    height: 390px;
+}
+
+.portfolio-1 .portfolio-img {
+    background-color: #F09532;
+}
+
+.portfolio-2 .portfolio-img {
+    background-color: #8C32F0;
+}
+
+.portfolio-3 .portfolio-img {
+    background-color: #E73587;
+}
+
+.portfolio-4 .portfolio-img {
+    background-color: #32D6F0;
+}
+
+.portfolio-section button {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 12px 40px 13px 40px;
+    color: #fff;
+    border: none;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+/* 
+ */
+
+/* Section D */
+/* Contact Section */
+.contact-section .contact-text h3 {
+    font-size: 25px;
+}
+
+.contact-section .contact-text span {
+    color: #E73587;
+}
+
+.contact-section label {
+    display: block;
+    padding: 8px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    padding: 6px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 168px;
+    width: 554px;
+    resize: none;
+}
+
+.contact-form button {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 13px;
+    padding: 12px 40px 13px 40px;
+    color: #fff;
+    border: none;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+footer {
+    background-color: #020E35;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding: 5px 0px;
+    text-align: center;
+}
