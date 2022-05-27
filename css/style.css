@@ -72,9 +72,13 @@ header .navbar .navbar-collapse .navbar-nav .nav-item:nth-child(5) .nav-link {
     font-size: 12px;
     line-height: 15px;
     padding: 12px 30px 13px 30px;
-    color: #fff;
     border: none;
     background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+.banner-left button a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .banner-right {
@@ -86,7 +90,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item:nth-child(5) .nav-link {
  */
 
 /* Section b */
-#section-b svg {
+#section-b .ini-svg {
     left: 0;
     z-index: -1;
 }
@@ -173,6 +177,14 @@ hr {
 
 .service-3 {
     background-color: #FEEFF0;
+}
+
+.circle-with-arrow button {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    padding: 23px 30px;
+    display: none;
 }
 
 /* 

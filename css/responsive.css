@@ -75,11 +75,15 @@
         width: 587px;
     }
 
-    /* 
+    .circle-with-arrow button {
+        top: 50%;
+        right: -20px;
+        display: block;
+    }
 
-    .contact-text br {
-        display: none;
-    } */
+    .service-3{
+        display: none !important;
+    }
 }
 
 @media all and (min-width: 1199px) {
@@ -98,6 +102,16 @@
     .portfolio-img {
         width: 500px;
     }
+
+    .circle-with-arrow button {
+        top: 55%;
+        right: 70px;
+        display: block;
+    }
+
+    .service-3{
+        display: none !important;
+    }
 }
 
 
@@ -113,7 +127,7 @@
     }
 
     .banner {
-        margin-top: 100px;
+        margin-top: 90px;
     }
 
     .banner-left h1 {
@@ -124,8 +138,8 @@
         position: absolute;
         width: 140px;
         height: 40px;
-        top: 339px;
-        z-index: -1;
+        top: 360px;
+        z-index: 1;
     }
 
     .banner-right img {
@@ -135,6 +149,11 @@
 
     #section-b {
         background: linear-gradient(white 68%, #020E35 32%) no-repeat;
+    }
+
+    .ini-svg{
+        right: 0;
+        z-index: 5 !important;
     }
 
     .portfolio-img {
@@ -150,5 +169,15 @@
 
     .contact-form form {
         width: 554px;
+    }
+
+    .circle-with-arrow button{
+        right: -20px;
+        top: 55%;
+        display: block;
+    }
+
+    .service-3{
+        display: flex !important;
     }
 }
